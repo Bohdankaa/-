@@ -1,0 +1,18 @@
+animals = {
+    1: "lion",
+    2: "cat",
+    3: "parrot",
+    4: "elephant",
+    5: "dog",
+    6: "fish",
+    7: "snake",
+    8: "turtle",
+    9: "bear",
+    10: "wolf"
+}
+animals[2] = "fox"
+animals[7] = "hare"
+
+del animals [3]
+animals [4] = None
+print("Оновлений словник:", animals)
